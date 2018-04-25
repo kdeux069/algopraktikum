@@ -14,11 +14,18 @@ Let's tackle it!
 </p>
 </div>
 
-## Useful commands
+
+## Run Task's
 Navigate to project folder then run ...
 
-[Example to execute ass1/task1 app]
+[Execute ass1/task1 app]
 ```bash
-mpicc -o app ./ass1/mcz/task1/hellompi.c && mpiexec -f ass1/mcz/task1/hosts  -n 5 ./ass1/mcz/task1/app
+mpicc -o app ./ass1/mcz/task1/hellompi.c && mpiexec -f ./ass1/mcz/task1/hosts  -n 5 ./ass1/mcz/task1/app
 ```
 
+[Execute ass1/task2 app]
+```bash
+mpicc -o app ./ass1/mcz/task2/hot.c && mpiexec -f ./ass1/mcz/task2/hosts  -n 5 ./ass1/mcz/task2/app
+```
+
+## Useful commands
